@@ -56,11 +56,17 @@ Shows the full flow from development → CI/CD → artifact repository → OpenS
 
 #### CI/CD Pipeline
 => Gradle build & unit/integration tests
+
 => SonarQube static code analysis
+
 => Docker image creation
+
 => Artifact versioning in Artifactory / Nexus
+
 => OpenShift deployment (DEV → TEST → UAT → PROD)
+
 => Automated rollback using previous stable artifacts
+
 => Detailed CI/CD configuration is documented in Confluence.
 
 #### Contributing
