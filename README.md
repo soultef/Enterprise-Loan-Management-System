@@ -1,18 +1,18 @@
 # Enterprise-Loan-Management-System (ELMS)
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application designed to manage the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
 
-Description:
+### Description:
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application designed to manage the full lifecycle of bank loans — from application submission to approval, tracking, and reporting. Built using Java Spring Boot, ELMS follows best practices in DevOps, CI/CD, containerization, and cloud orchestration to ensure secure, scalable, and maintainable banking operations.
 
-Key Features
+### Key Features
 
-Loan Management: Submit, track, and manage loan applications.
+#### Loan Management: Submit, track, and manage loan applications.
 
-Workflow Engine: Multi-level loan approval workflows powered by Camunda BPM.
+#### Workflow Engine: Multi-level loan approval workflows powered by Camunda BPM.
 
-Role-Based Access Control (RBAC): Secure access with Keycloak integration and separation of duties (SoD).
+#### Role-Based Access Control (RBAC): Secure access with Keycloak integration and separation of duties (SoD).
 
-CI/CD & Automation: Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
+#### CI/CD & Automation: Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
 
 Containerized Deployment: Docker and OpenShift / OKD orchestration for DEV, TEST, UAT, and PROD environments.
 
