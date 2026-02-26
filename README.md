@@ -1,8 +1,8 @@
-Enterprise Loan Management System (ELMS)
+🌟 Enterprise Loan Management System (ELMS)
 
 Enterprise-grade open-source system for managing bank loans from application to approval.
 
-Badges
+📊 Badges
 
 
 
@@ -11,36 +11,46 @@ Badges
 
 
 
-Description
+📝 Description
 
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application that manages the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
 
-Built using Java Spring Boot, ELMS follows best practices in DevOps, CI/CD, containerization, and cloud orchestration, ensuring secure, scalable, and maintainable banking operations.
+Built using Java Spring Boot, ELMS follows DevOps, CI/CD, containerization, and cloud orchestration best practices, ensuring secure, scalable, and maintainable banking operations.
 
-Demo
+⚡ Key Features
+💼 Loan Management
 
+Submit, track, and manage loan applications.
 
-A small demo GIF showing the loan application workflow and approval process.
+🔄 Workflow Engine
 
-Key Features
+Multi-level loan approval workflows powered by Camunda BPM.
 
-Loan Management: Submit, track, and manage loan applications.
+🔐 Role-Based Access Control (RBAC)
 
-Workflow Engine: Multi-level loan approval workflows powered by Camunda BPM.
+Secure access with Keycloak integration and separation of duties (SoD).
 
-Role-Based Access Control (RBAC): Secure access with Keycloak integration and SoD enforcement.
+🛠 CI/CD & Automation
 
-CI/CD & Automation: Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
+Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
 
-Containerized Deployment: Docker and OpenShift / OKD orchestration across DEV, TEST, UAT, and PROD.
+🐳 Containerized Deployment
 
-Messaging & Notifications: Asynchronous event handling via Apache Kafka.
+Docker and OpenShift / OKD orchestration across DEV, TEST, UAT, and PROD.
 
-Observability: Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
+📣 Messaging & Notifications
 
-Artifact Management & Rollback: Versioned artifacts in Artifactory/Nexus with easy rollback.
+Asynchronous event handling using Apache Kafka.
 
-Technology Stack
+📈 Observability
+
+Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
+
+📦 Artifact Management & Rollback
+
+Versioned artifacts in Artifactory/Nexus with easy rollback support.
+
+🛠 Technology Stack
 Layer	Technology
 Backend	Java Spring Boot / MVC
 Frontend	Spring MVC + Thymeleaf (optional Angular/React)
@@ -53,21 +63,21 @@ Containerization & Orchestration	Docker + OpenShift / OKD
 Artifact Repository	JFrog Artifactory OSS / Nexus
 Monitoring & Logging	ELK Stack + Prometheus & Grafana
 Code Quality	SonarQube Community Edition
-Installation
+💻 Installation
 
 Full installation, deployment, and configuration instructions are maintained in Confluence.
 View Installation Docs
 
-Running the Project
+🚀 Running the Project
 
 Instructions for running locally (DEV), connecting to databases, and using Keycloak are in Confluence.
 View Running Instructions
 
-Architecture Diagram
+🏗 Architecture Diagram
 
-Full flow: development → CI/CD → artifact repo → OpenShift → workflow → IAM → monitoring.
+Shows full flow from development → CI/CD → artifact repo → OpenShift → workflow engine → IAM → monitoring.
 
-CI/CD Pipeline
+🔄 CI/CD Pipeline
 
 Gradle build & unit/integration tests
 
@@ -84,7 +94,7 @@ Automated rollback using previous stable artifacts
 Detailed CI/CD configuration is in Confluence.
 View CI/CD Docs
 
-Contributing
+🤝 Contributing
 
 Fork the repository
 
@@ -99,8 +109,8 @@ Push branch and create a Pull Request
 Follow SonarQube rules and code quality standards.
 View Contributing Guide
 
-License
+📄 License
 
 MIT License
 
-This README now includes:
+This version now has:
