@@ -30,7 +30,7 @@ Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
 📦 Artifact Management & Rollback
 Versioned artifacts in Artifactory/Nexus with easy rollback support.
 
-🛠 Technology Stack
+🛠 #### Technology Stack
   Layer	Technology
   Backend	Java Spring Boot / MVC
   Frontend	Spring MVC + Thymeleaf (optional Angular/React)
@@ -48,13 +48,13 @@ Versioned artifacts in Artifactory/Nexus with easy rollback support.
 Full installation, deployment, and configuration instructions are maintained in Confluence.
 Please refer to Confluence for step-by-step guides.
 
-Running the Project
+#### Running the Project
 Instructions for running the application locally (DEV environment), connecting to databases, and accessing Keycloak authentication are detailed in Confluence.
 
-Architecture Diagram
+#### Architecture Diagram
 Shows the full flow from development → CI/CD → artifact repository → OpenShift → workflow engine → IAM → monitoring.
 
-CI/CD Pipeline
+#### CI/CD Pipeline
 => Gradle build & unit/integration tests
 => SonarQube static code analysis
 => Docker image creation
@@ -63,7 +63,7 @@ CI/CD Pipeline
 => Automated rollback using previous stable artifacts
 => Detailed CI/CD configuration is documented in Confluence.
 
-Contributing
+#### Contributing
 Fork the repository
 Create a feature branch:
 git checkout -b feature/your-feature
