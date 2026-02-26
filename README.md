@@ -51,8 +51,13 @@ Please refer to Confluence for step-by-step guides.
 #### Running the Project
 Instructions for running the application locally (DEV environment), connecting to databases, and accessing Keycloak authentication are detailed in Confluence.
 
-#### Architecture Diagram
+#### Architecture
 Shows the full flow from development → CI/CD → artifact repository → OpenShift → workflow engine → IAM → monitoring.
+
+#### Documentation
+For detailed architecture, see [PRD Documentation][confluence-doc].
+
+[confluence-doc]:[ https://yourcompany.atlassian.net/wiki/...](https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/131074/PRD-DOC)
 
 #### CI/CD Pipeline
 => Gradle build & unit/integration tests
