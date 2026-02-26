@@ -1,13 +1,8 @@
 🌟 Enterprise Loan Management System (ELMS)
 
-Enterprise-grade open-source system for managing bank loans from application to approval.
-
-📊 Badges
-
 📝 Description
 
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application that manages the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
-
 Built using Java Spring Boot, ELMS follows DevOps, CI/CD, containerization, and cloud orchestration best practices, ensuring secure, scalable, and maintainable banking operations.
 
 ⚡ Key Features
