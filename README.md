@@ -4,13 +4,6 @@ Enterprise-grade open-source system for managing bank loans from application to 
 
 📊 Badges
 
-
-
-
-
-
-
-
 📝 Description
 
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application that manages the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
@@ -110,7 +103,5 @@ Follow SonarQube rules and code quality standards.
 View Contributing Guide
 
 📄 License
-
 MIT License
 
-This version now has:
