@@ -1,62 +1,71 @@
-# Enterprise-Loan-Management-System (ELMS)
-Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application designed to manage the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
+Enterprise Loan Management System (ELMS)
 
-### Description:
-Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application designed to manage the full lifecycle of bank loans — from application submission to approval, tracking, and reporting. Built using Java Spring Boot, ELMS follows best practices in DevOps, CI/CD, containerization, and cloud orchestration to ensure secure, scalable, and maintainable banking operations.
+Enterprise-grade open-source system for managing bank loans from application to approval.
 
-### Key Features
+Badges
 
-#### Loan Management: Submit, track, and manage loan applications.
 
-#### Workflow Engine: Multi-level loan approval workflows powered by Camunda BPM.
 
-#### Role-Based Access Control (RBAC): Secure access with Keycloak integration and separation of duties (SoD).
 
-#### CI/CD & Automation: Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
 
-Containerized Deployment: Docker and OpenShift / OKD orchestration for DEV, TEST, UAT, and PROD environments.
 
-Messaging & Notifications: Asynchronous event handling using Apache Kafka.
 
-Observability: Logging with ELK Stack and metrics monitoring with Prometheus & Grafana.
 
-Artifact Management & Rollback: Versioned artifacts in Artifactory/Nexus with easy rollback support.
+Description
+
+Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application that manages the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
+
+Built using Java Spring Boot, ELMS follows best practices in DevOps, CI/CD, containerization, and cloud orchestration, ensuring secure, scalable, and maintainable banking operations.
+
+Demo
+
+
+A small demo GIF showing the loan application workflow and approval process.
+
+Key Features
+
+Loan Management: Submit, track, and manage loan applications.
+
+Workflow Engine: Multi-level loan approval workflows powered by Camunda BPM.
+
+Role-Based Access Control (RBAC): Secure access with Keycloak integration and SoD enforcement.
+
+CI/CD & Automation: Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
+
+Containerized Deployment: Docker and OpenShift / OKD orchestration across DEV, TEST, UAT, and PROD.
+
+Messaging & Notifications: Asynchronous event handling via Apache Kafka.
+
+Observability: Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
+
+Artifact Management & Rollback: Versioned artifacts in Artifactory/Nexus with easy rollback.
 
 Technology Stack
-
-Backend: Java Spring Boot / MVC
-
-Frontend: Spring MVC + Thymeleaf (optional Angular/React)
-
-Database: PostgreSQL
-
-Workflow: Camunda BPM
-
-Messaging: Apache Kafka
-
-IAM & Security: Keycloak
-
-CI/CD: Jenkins / GitHub Actions
-
-Containerization & Orchestration: Docker + OpenShift / OKD
-
-Artifact Repository: JFrog Artifactory OSS / Nexus
-
-Monitoring & Logging: ELK Stack + Prometheus & Grafana
-
-Code Quality: SonarQube Community Edition
-
+Layer	Technology
+Backend	Java Spring Boot / MVC
+Frontend	Spring MVC + Thymeleaf (optional Angular/React)
+Database	PostgreSQL
+Workflow	Camunda BPM
+Messaging	Apache Kafka
+IAM & Security	Keycloak
+CI/CD	Jenkins / GitHub Actions
+Containerization & Orchestration	Docker + OpenShift / OKD
+Artifact Repository	JFrog Artifactory OSS / Nexus
+Monitoring & Logging	ELK Stack + Prometheus & Grafana
+Code Quality	SonarQube Community Edition
 Installation
 
-Full installation, deployment, and configuration instructions are maintained in Confluence. Please refer to the Confluence project documentation for step-by-step guides.
+Full installation, deployment, and configuration instructions are maintained in Confluence.
+View Installation Docs
 
 Running the Project
 
-Instructions for running the application locally (DEV environment), connecting to databases, and accessing the Keycloak authentication server are detailed in Confluence.
+Instructions for running locally (DEV), connecting to databases, and using Keycloak are in Confluence.
+View Running Instructions
 
 Architecture Diagram
 
-The diagram shows the full flow from development, CI/CD, artifact repository, container orchestration in OpenShift, workflow engine, IAM integration, and monitoring.
+Full flow: development → CI/CD → artifact repo → OpenShift → workflow → IAM → monitoring.
 
 CI/CD Pipeline
 
@@ -72,22 +81,26 @@ OpenShift deployment (DEV → TEST → UAT → PROD)
 
 Automated rollback using previous stable artifacts
 
-Detailed CI/CD configuration and environment setup is documented in Confluence.
+Detailed CI/CD configuration is in Confluence.
+View CI/CD Docs
 
 Contributing
 
 Fork the repository
 
-Create a feature branch (git checkout -b feature/your-feature)
+Create a feature branch:
 
-Make your changes with proper commits
+git checkout -b feature/your-feature
 
-Push to your branch and create a Pull Request
+Make changes with proper commits
 
-All contributions must follow the code quality and SonarQube rules
+Push branch and create a Pull Request
 
-Detailed contribution guidelines and review process are documented in Confluence.
+Follow SonarQube rules and code quality standards.
+View Contributing Guide
 
 License
 
-[Specify your license here, e.g., MIT License, Apache 2.0]
+MIT License
+
+This README now includes:
