@@ -5,29 +5,29 @@
 Enterprise Loan Management System (ELMS) is an open-source, enterprise-grade application that manages the full lifecycle of bank loans — from application submission to approval, tracking, and reporting.
 Built using Java Spring Boot, ELMS follows DevOps, CI/CD, containerization, and cloud orchestration best practices, ensuring secure, scalable, and maintainable banking operations.
 
-⚡ Key Features
-💼 Loan Management
+##### ⚡ Key Features
+###### 💼 Loan Management
 Submit, track, and manage loan applications.
 
-🔄 Workflow Engine
+###### 🔄 Workflow Engine
 Multi-level loan approval workflows powered by Camunda BPM.
 
-🔐 Role-Based Access Control (RBAC)
+###### 🔐 Role-Based Access Control (RBAC)
 Secure access with Keycloak integration and separation of duties (SoD).
 
-🛠 CI/CD & Automation
+###### 🛠 CI/CD & Automation
 Gradle builds, automated tests, SonarQube code quality checks, and deployment pipelines.
 
-🐳 Containerized Deployment
+###### 🐳 Containerized Deployment
 Docker and OpenShift / OKD orchestration across DEV, TEST, UAT, and PROD.
 
-📣 Messaging & Notifications
+###### 📣 Messaging & Notifications
 Asynchronous event handling using Apache Kafka.
 
-📈 Observability
+###### 📈 Observability
 Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
 
-📦 Artifact Management & Rollback
+###### 📦 Artifact Management & Rollback
 Versioned artifacts in Artifactory/Nexus with easy rollback support.
 
 #### 🛠 Technology Stack
@@ -64,19 +64,19 @@ Business requirement documentat, see [BRD Documentation][confluence-doc].
 [confluence-doc]:  https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/1507333/Business+Requirements+Document+BRD
 
 #### CI/CD Pipeline
-=> Gradle build & unit/integration tests
+ ###### Gradle build & unit/integration tests
 
-=> SonarQube static code analysis
+###### SonarQube static code analysis
 
-=> Docker image creation
+###### Docker image creation
 
-=> Artifact versioning in Artifactory / Nexus
+###### Artifact versioning in Artifactory / Nexus
 
-=> OpenShift deployment (DEV → TEST → UAT → PROD)
+###### OpenShift deployment (DEV → TEST → UAT → PROD)
 
-=> Automated rollback using previous stable artifacts
+###### Automated rollback using previous stable artifacts
 
-=> Detailed CI/CD configuration is documented in Confluence.
+###### Detailed CI/CD configuration is documented in Confluence.
 
 #### Contributing
 Fork the repository
