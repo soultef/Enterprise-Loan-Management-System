@@ -88,6 +88,6 @@ All contributions must follow code quality rules and SonarQube checks.
 Detailed contribution guidelines are in Confluence.
 
 📄 License
-[Specify your license here, e.g., MIT License, Apache 2.0]
+MIT License,
 
 
