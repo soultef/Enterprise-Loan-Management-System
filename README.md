@@ -59,10 +59,7 @@ Project requirement documentat, see [PRD Documentation][confluence-doc].
 
 [confluence-doc]:  https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/131074/PRD-DOC
 
-Business Requirement Documents, see [BRD Documentation][confluence-doc].
-[confluence-doc]:  https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/1507333/Business+Requirements+Document+BRD
-
-Business requirement documentat, see [PRD Documentation][confluence-doc].
+Business requirement documentat, see [BRD Documentation][confluence-doc].
 
 [confluence-doc]:  https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/1507333/Business+Requirements+Document+BRD
 
