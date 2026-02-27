@@ -1,4 +1,4 @@
-package com.mytest.loan.management.system;
+package com.mytest.elms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
