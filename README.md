@@ -30,7 +30,7 @@ Logging via ELK Stack and metrics monitoring with Prometheus & Grafana.
 📦 Artifact Management & Rollback
 Versioned artifacts in Artifactory/Nexus with easy rollback support.
 
-🛠 #### Technology Stack
+#### 🛠 Technology Stack
   Layer	Technology
   Backend	Java Spring Boot / MVC
   Frontend	Spring MVC + Thymeleaf (optional Angular/React)
