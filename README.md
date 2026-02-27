@@ -55,9 +55,11 @@ Instructions for running the application locally (DEV environment), connecting t
 Shows the full flow from development → CI/CD → artifact repository → OpenShift → workflow engine → IAM → monitoring.
 
 #### Documentation
-For detailed project requirement documentat, see [PRD Documentation][confluence-doc].
+Project requirement documentat, see [PRD Documentation][confluence-doc].
 
 [confluence-doc]:  https://soultefera.atlassian.net/wiki/spaces/~712020ed294c45e54d42fda237facac978881a/pages/131074/PRD-DOC
+
+Business Requirement Documents, see [
 
 #### CI/CD Pipeline
 => Gradle build & unit/integration tests
